@@ -57,6 +57,7 @@ public class HeartLikeSurfaceView extends SurfaceView implements SurfaceHolder.C
         paint.setDither(true);
         paint.setFilterBitmap(true);
 
+
     }
 
 
