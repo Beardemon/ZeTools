@@ -63,6 +63,8 @@ public class HeartLikeSurfaceView extends SurfaceView implements SurfaceHolder.C
     @Override
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
         mIsDrawing = true;
+
+
         try {
             if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
                 BitmapFactory.Options options = new BitmapFactory.Options();
